@@ -1,0 +1,49 @@
+{
+  "name": "sneak-porfolio",
+  "version": "1.0.0",
+  "description": "This is a repository bootstraped as a modern vanilla JavaScript ready to distribute as a production app. (Code challenge) 🏄",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "start": "http-server dist"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.9.1",
+    "css-loader": "^5.1.3",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.3.9",
+    "prettier": "^2.2.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjosuerojas/sneak-porfolio.git"
+  },
+  "keywords": [
+    "Vanilla Javscript",
+    "Webpack",
+    "Prettier",
+    "ESLint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjosuerojas/sneak-porfolio/issues"
+  },
+  "homepage": "https://github.com/sjosuerojas/sneak-porfolio#readme"
+}
