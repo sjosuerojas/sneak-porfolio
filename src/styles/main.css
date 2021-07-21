@@ -1,29 +1,211 @@
-@import url('./normalize.css');  
+@import url('./normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap');
 
+:root {
+  --sj-font-sans-serif: 'Montserrat', sans-serif;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #3c484e;
-    font-family: 'Montserrat', sans-serif;;
+  margin: 0;
+  font-family: var(--sj-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.Header-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
 }
 
-.Header a {
-    text-decoration: none;
-    color: #15302C;
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.Main {
-    padding: 10px;
-    grid-template-columns: minmax(auto, 976px);
-    display: grid;
-    justify-content: center;
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
 }
-  
+
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0.25rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0d6efd;
+}
+
+.me-md-auto {
+  margin-right: auto !important;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.align-content-center {
+  align-content: center!important;
+}
+
+.justify-content-center {
+  justify-content: center!important; 
+}
+
+.flex-column {
+  flex-direction: column!important;
+}

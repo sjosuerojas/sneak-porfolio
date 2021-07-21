@@ -11,9 +11,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       inject: true,
-      template: './public/index.html',
-      favicon: './public/favicon.png'
-    }), 
+      template: './public/index.html', 
+    }),
   ],
   module: {
     rules: [

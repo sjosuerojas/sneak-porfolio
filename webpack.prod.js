@@ -8,6 +8,9 @@ const common = require('./webpack.common.js')
 module.exports = merge(common, {
   mode: 'production',
   devtool: 'source-map',
+  output: {
+    chunkFilename: 'js/[id].[chunkhash].js',
+  },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'static/[name].[fullhash].css',
