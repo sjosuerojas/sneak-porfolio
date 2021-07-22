@@ -5,6 +5,7 @@ This is a repository bootstraped as a modern vanilla JavaScript ready to distrib
 ## Features
 
 - [Webpack](https://webpack.js.org/) (v5)
+- [Bootstrap Icons](https://icons.getbootstrap.com/) (v1.4)
 - [Babel](https://babeljs.io/) with [preset-env](https://babeljs.io/docs/en/babel-preset-env)
 - [Prettier](https://prettier.io/)
 - [Tasks Runner VsCode](https://code.visualstudio.com/docs/editor/tasks)
