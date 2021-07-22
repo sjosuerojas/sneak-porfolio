@@ -2,16 +2,16 @@ import images from '../db/data.json'
 
 const Home = async () => { 
   const view = `
-    <header class="bg-pink py-20">
+    <header class="bg-pink py-20 animate__animated animate__fadeIn">
         <div class="container px-5">
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center my-5">
-                        <h2 class="fw-bolder text-white my-4 text-spaced text-uppercase">Explore beyond horizon</h2>
-                        <p class="lead text-white mb-5">Magna mundi referrentur quo, no rebum dignissim qui.
+                        <h2 class="fw-bolder text-white my-4 text-spaced text-uppercase animate__animated animate__bounceInLeft">Explore beyond horizon</h2>
+                        <p class="lead text-white mb-5 animate__animated animate__bounceInLeft">Magna mundi referrentur quo, no rebum dignissim qui.
                             Per quodsi accusata id, agam labores.</p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a class="btn btn-sm btn-light px-4 py-2 fw-regular me-sm-3 text-primary text-uppercase"
+                            <a class="btn btn-sm btn-light px-4 py-2 fw-regular me-sm-3 text-primary text-uppercase animate__animated animate__bounceIn"
                                 href="#features">View
                                 our work</a>
                         </div>

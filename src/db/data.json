@@ -3,36 +3,36 @@
         "id": 1,
         "name": "lorempixel-1",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/440/660"
+        "picture": "https://placeimg.com/440/660"
     },
     {
         "id": 2,
         "name": "lorempixel-2",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/1000/500"
+        "picture": "https://placeimg.com/1000/500"
     },
     {
         "id": 3,
         "name": "lorempixel-3",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/400/300"
+        "picture": "https://placeimg.com/400/300"
     },
     {
         "id": 4,
         "name": "lorempixel-4",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/600/400"
+        "picture": "https://placeimg.com/600/400"
     },
     {
         "id": 5,
         "name": "lorempixel-5",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/1500/380"
+        "picture": "https://placeimg.com/1500/380"
     },
     {
         "id": 6,
         "name": "lorempixel-6",
         "link": "http://lorempixel.com",
-        "picture": "https://picsum.photos/400/360"
+        "picture": "https://placeimg.com/400/360"
     }
 ]
